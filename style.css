@@ -1,0 +1,65 @@
+/* Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    max-width: 33rem;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 2.5rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.star {
+    font-size: 10vh;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+}
+
+.star:hover {
+    /* font-size: 30px; */
+    transform: scale(2);
+}
+
+/* Updated star colors for a modern, vibrant look */
+.one {
+    color: #e63946; /* Bright Red */
+}
+
+.two {
+    color: #f38e22; /* Vivid Orange */
+}
+
+.three {
+    color: #eabf10; /* Warm Yellow */
+}
+
+.four {
+    color: #ffd700; /* Golden Yellow */
+}
+
+.five {
+    color: #2fd4a3; /* Rich Green */
+}
+
+
